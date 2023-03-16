@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook.WebAPI", "AddressBook.WebAPI\AddressBook.WebAPI.csproj", "{02E58215-1DC9-440C-98EF-D69847F10CE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBookWebAPI.Repository", "AddressBookWebAPI.Repository\AddressBookWebAPI.Repository.csproj", "{5AC83FC9-2584-45F2-A032-CE698825177B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook.Models", "AddressBook.Models\AddressBook.Models.csproj", "{A38CF85E-D1ED-4833-BB79-6DD0D4DF1F5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBookServices", "AddressBookServices\AddressBookServices.csproj", "{606FB9E5-2A85-4EF0-ADF4-DF65CEF9CD4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper.Configuration", "AutoMapper.Configuration\AutoMapper.Configuration.csproj", "{66203222-1DF2-49EF-B71F-F9D34B730268}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02E58215-1DC9-440C-98EF-D69847F10CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E58215-1DC9-440C-98EF-D69847F10CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E58215-1DC9-440C-98EF-D69847F10CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E58215-1DC9-440C-98EF-D69847F10CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AC83FC9-2584-45F2-A032-CE698825177B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC83FC9-2584-45F2-A032-CE698825177B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC83FC9-2584-45F2-A032-CE698825177B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC83FC9-2584-45F2-A032-CE698825177B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A38CF85E-D1ED-4833-BB79-6DD0D4DF1F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38CF85E-D1ED-4833-BB79-6DD0D4DF1F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38CF85E-D1ED-4833-BB79-6DD0D4DF1F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38CF85E-D1ED-4833-BB79-6DD0D4DF1F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{606FB9E5-2A85-4EF0-ADF4-DF65CEF9CD4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606FB9E5-2A85-4EF0-ADF4-DF65CEF9CD4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606FB9E5-2A85-4EF0-ADF4-DF65CEF9CD4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606FB9E5-2A85-4EF0-ADF4-DF65CEF9CD4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66203222-1DF2-49EF-B71F-F9D34B730268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66203222-1DF2-49EF-B71F-F9D34B730268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66203222-1DF2-49EF-B71F-F9D34B730268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66203222-1DF2-49EF-B71F-F9D34B730268}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBE40006-2BD1-448C-BD36-D6ACF6014726}
+	EndGlobalSection
+EndGlobal

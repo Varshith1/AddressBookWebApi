@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SimpleInjector.Integration.AspNetCore.Mvc" Version="5.4.0" />
+    <PackageReference Include="SimpleInjector.Integration.Web" Version="5.0.0" />
+    <PackageReference Include="SimpleInjector.Integration.Web.Mvc" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AddressBook.Models\AddressBook.Models.csproj" />
+    <ProjectReference Include="..\AddressBookWebAPI.Repository\AddressBookWebAPI.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
